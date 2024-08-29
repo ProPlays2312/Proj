@@ -1,0 +1,6 @@
+Python is an object oriented language.
+it is a "Dynamically typed" language.
+You do not need to declare variables before using them.or declare their type.
+every variable in Python is an object.
+python supports two types of numbers - integers and floating point numbers.
+	Python is simple in syntax and understanding.
