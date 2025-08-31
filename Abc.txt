@@ -1,0 +1,9 @@
+UUID=YOUR-BTRFS-UUID   /           btrfs  subvol=@,defaults,noatime,compress=zstd,space_cache=v2  0  0
+UUID=YOUR-BTRFS-UUID   /home       btrfs  subvol=@home,defaults,noatime,compress=zstd,space_cache=v2  0  0
+UUID=YOUR-BTRFS-UUID   /var/log    btrfs  subvol=@log,defaults,noatime,compress=zstd,space_cache=v2  0  0
+UUID=YOUR-BTRFS-UUID   /var/cache  btrfs  subvol=@cache,defaults,noatime,compress=zstd,space_cache=v2  0  0
+UUID=YOUR-BTRFS-UUID   /.snapshots btrfs  subvol=@snapshots,defaults,noatime,compress=zstd,space_cache=v2  0  0
+
+UUID=YOUR-EFI-UUID     /boot/efi   vfat   umask=0077  0  1
+UUID=YOUR-BOOT-UUID    /boot       ext4   defaults   0  2
+UUID=YOUR-SWAP-UUID    none        swap   sw         0  0
